@@ -1,0 +1,52 @@
+.shakinah-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.shakinah-title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section1 p {
+  line-height: 1.6;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.shakinah-subtitle {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section2 {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Estilos para hacer responsive */
+@media (max-width: 768px) {
+  .shakinah-section {
+    padding: 30px 10px;
+  }
+
+  .shakinah-title {
+    font-size: 1.5rem;
+  }
+
+  .shakinah-subtitle {
+    font-size: 1.2rem;
+  }
+}
